@@ -1,6 +1,6 @@
 import unittest
 from pathlib import Path
-from src.day_01 import day_011
+from src.day_01 import day_012
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):

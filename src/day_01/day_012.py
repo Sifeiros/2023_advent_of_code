@@ -5,32 +5,45 @@ import pathlib
 
 def trebuchet_config(path: Path):
     raw_input = read_input_file(path)
-    numbers = tuple("0123456789")
-    """numbers_text = {"zero":"0",
-                    "one":"1",
-                    "two":"2",
-                    "three":"3",
-                    "four":"4",
-                    "five":"5",
-                    "six":"6",
-                    "seven":"7",
-                    "eight":"8",
-                    "nine":"9"}"""
-    numbers_text = ("zero","one","two", "three", "four","five","six","seven","eight","nine")
-    numbers_zip = dict(zip(numbers_text, numbers))
+    numbers = tuple("0213456789")
+    numbers_text_low = ("zero","two", "one", "three", "four","five","six","seven","eight","nine")
+    numbers_text_high = ("zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine")
+    #numbers_text_ref = tuple([st[::-1] for st in numbers_text])
+    numbers_zip = dict(zip(numbers_text_low, numbers))
     result = 0
     for line in raw_input:
 
         low = None
         high = None
-        for i in range(len(line)):
-            if low is None and line[i:].startswith(numbers):
-                low = line[i]
-            if low is None and line[i:].startswith(numbers_text)
-            if high is None and line[0:-i-1].endswith(numbers):
-                high = line[-1]
+        tmp_line = line.strip() + "-"
+
+        print(f"\nCurrent Line {tmp_line} \n ____________")
+
+
+
+        for i in range(len(tmp_line)):
+            if low is None:
+                if tmp_line[i:].startswith(numbers):
+                    low = tmp_line[i]
+                elif tmp_line[i:].startswith(numbers_text_low):
+                    val = tmp_line[i:i+5]
+                    for pat in numbers_text_low:
+                        val = val.replace(pat, numbers_zip[pat])
+                    low = val[0]
+
+            if high is None:
+                if tmp_line[0:-i-1].endswith(numbers):
+                    #print(f"Current Test: {tmp_line[0:-i-1]}")
+                    high = tmp_line[-i-2]
+                elif tmp_line[0:-i-1].endswith(numbers_text_high):
+                    val = tmp_line[-i-6:-i-1]
+                    for pat in numbers_text_high:
+                        val = val.replace(pat, numbers_zip[pat])
+                    high = val[-1]
+
+        print(f"low: {low}")
+        print(f"high: {high}")
         result += int(low + high)
-        print(low+high)
     return result
 
 

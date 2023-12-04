@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ebb942-9977-4f99-b717-00a60e207c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/day_01/data_011.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/day_01/test_012.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day_01/day_012.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/day_01/day_012.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/file_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/day_02/data_02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/day_02/test_021.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/day_02/test_022.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_02/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_02/day_021.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/day_02/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/day_02/day_021.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/day_02/day_022.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/2023_advent_of_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2023_advent_of_code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day_01/day_011.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_01/day_011.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/day_01/day_011.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/day_01/day_011.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/day_01/data_011.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/day_01/data_01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_01/day_012.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_01/day_012.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/day_01/day_012.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/day_01/day_012.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.day_011">
-    <configuration name="day_011" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.day_022">
+    <configuration name="day_012" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2023_advent_of_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,7 +70,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_01/day_011.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_01/day_012.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +79,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for day_011.Day011.test_01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="day_021" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2023_advent_of_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_02/day_021.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day_022" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2023_advent_of_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_02/day_022.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in day_021.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="2023_advent_of_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,18 +134,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;day_011.Day011.test_01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/day_02/day_021.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in day_022.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="2023_advent_of_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/day_02/day_022.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.day_011" />
-      <item itemvalue="Python tests.Python tests for day_011.Day011.test_01" />
+      <item itemvalue="Python.day_022" />
+      <item itemvalue="Python.day_021" />
+      <item itemvalue="Python.day_012" />
+      <item itemvalue="Python tests.Python tests in day_022.py" />
+      <item itemvalue="Python tests.Python tests in day_021.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.day_011" />
-        <item itemvalue="Python tests.Python tests for day_011.Day011.test_01" />
+        <item itemvalue="Python.day_022" />
+        <item itemvalue="Python tests.Python tests in day_022.py" />
+        <item itemvalue="Python.day_021" />
+        <item itemvalue="Python tests.Python tests in day_021.py" />
+        <item itemvalue="Python.day_012" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +180,7 @@
       <updated>1701554116444</updated>
       <workItem from="1701554124022" duration="4030000" />
       <workItem from="1701614855583" duration="320000" />
+      <workItem from="1701642365653" duration="6055000" />
     </task>
     <servers />
   </component>
@@ -117,7 +188,10 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/2023_advent_of_code$.coverage" NAME=" Coverage Results" MODIFIED="1701556514710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/2023_advent_of_code$.coverage" NAME=" Coverage Results" MODIFIED="1701648456784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/2023_advent_of_code$day_022.coverage" NAME="day_022 Coverage Results" MODIFIED="1701648470831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/day_02" />
+    <SUITE FILE_PATH="coverage/2023_advent_of_code$day_012.coverage" NAME="day_012 Coverage Results" MODIFIED="1701646069290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/2023_advent_of_code$day_021.coverage" NAME="day_021 Coverage Results" MODIFIED="1701648093936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2023_advent_of_code$day_011.coverage" NAME="day_011 Coverage Results" MODIFIED="1701556523029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
   </component>
 </project>
