@@ -38,7 +38,7 @@ def sum_of_all_parts(path):
                         pass
             else:
                 if elem.isdigit():
-                    raw_array[ind,cn] = int(elem)
+                    raw_array[ind, cn] = int(elem)
                     cn += 1
                 elif elem == "#":
                     raw_array[ind,cn] = "#"
