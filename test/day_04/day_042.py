@@ -1,13 +1,13 @@
 import unittest
 from pathlib import Path
-from src.day_02 import day_022
+from src.day_04 import day_041
 
 class MyTestCase(unittest.TestCase):
     def test_fewest_number(self):
-        test_input_path = Path("./data/day_02/test_021.txt")
+        test_input_path = Path("./data/day_04/test_041.txt")
 
-        result = day_042.XXX(test_input_path)
-        self.assertEqual(0, result)  # add assertion here
+        result = day_041.scratch_cards_copies(test_input_path)
+        self.assertEqual(30, result)  # add assertion here
 
 
 if __name__ == '__main__':
